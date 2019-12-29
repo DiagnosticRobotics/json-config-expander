@@ -8,5 +8,5 @@ class ImplementationTypes:
 
 
 def expand_configs(base_config, function=None, expand_char='*',
-		expand_configs_implementation=ImplementationTypes.FIND_AND_REPLACE_BASED):
+		expand_configs_implementation=ImplementationTypes.CARTESIAN_PRODUCT_BASED):
 	return expand_configs_implementation(base_config, function, expand_char)
