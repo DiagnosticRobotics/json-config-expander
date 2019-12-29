@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
 	name="json-config-expander",
-	version="0.2",
+	version="0.3",
 	author="Diagnostic Robotics",
 	author_email="admin@diagnosticrobotics.com",
 	description="Expand multi optional configuration to multiple configurations.",
