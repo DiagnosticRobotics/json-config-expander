@@ -66,5 +66,5 @@ class expand_configs(object):
 		for key in path:
 			path_value = path_value[key]
 		if type(path_value) is not list:
-			raise TypeError(f'the value of {path} should be a list! ({path_value} is not a list)')
+			raise TypeError('the value of {} should be a list! ({} is not a list)'.format(path, path_value))
 		return path_value
