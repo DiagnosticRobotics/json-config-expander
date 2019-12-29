@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
 	name="json-config-expander",
-	version="0.1",
+	version="0.2",
 	author="Diagnostic Robotics",
 	author_email="admin@diagnosticrobotics.com",
 	description="Expand multi optional configuration to multiple configurations.",
@@ -23,7 +23,6 @@ setup(
 	url="https://github.com/DiagnosticRobotics/json-config-expander",
 	packages=find_packages(include=['json_config_expander', 'json_config_expander.*']),
 	long_description=read('README.md'),
-	classifiers=[
-		"Development Status :: 1 - Alpha",
-	],
+	long_description_content_type='text/markdown',
+	classifiers=["Development Status :: 3 - Alpha"]
 )
