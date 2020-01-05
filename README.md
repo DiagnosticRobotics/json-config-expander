@@ -2,6 +2,16 @@
 
 Expand **multi optional** configuration to **multiple configurations**.
 
+### Install
+```
+pip install json-config-expander
+```
+
+### Import
+```
+from json_config_expander import expand_configs
+```
+
 ### Example 1
 ```
 base_config = {'param_1*': [12, 13]}
